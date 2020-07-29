@@ -2,8 +2,7 @@
 
 # Getting started
 ```
-npm install
-cd client && npx create-react-app
+yarn && npx create-react-app client/
 ```
 
 # Notes
