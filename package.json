@@ -2,12 +2,9 @@
   "name": "luca",
   "version": "0.1.0",
   "description": "# Getting started ...",
-  "workspaces": [
-    "api/",
-    "client/"
-  ],
   "main": "index.js",
   "scripts": {
+    "start": "echo \"Error: no start specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "echo \"Error: no lint specified\" && exit 1"
   },
@@ -22,6 +19,8 @@
   },
   "homepage": "https://github.com/moderatemisbehaviour/luca#readme",
   "devDependencies": {
-    "cypress": "^4.5.0"
+    "cypress": "latest",
+    "eslint": "latest",
+    "gitmoji-cli": "latest"
   }
 }
